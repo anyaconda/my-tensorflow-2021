@@ -1,0 +1,208 @@
+WARNING:root:Make sure that locally built Python SDK docker image has Python 3.7 interpreter.
+WARNING:apache_beam.io.tfrecordio:Couldn't find python-snappy so the implementation of _TFRecordUtil._masked_crc32c is not as fast as it could be.
+WARNING:tensorflow:From C:\Users\chq-anyac\AppData\Roaming\Python\Python37\site-packages\tensorflow_data_validation\utils\stats_util.py:247: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use eager execution and: 
+`tf.data.TFRecordDataset(path)`
+WARNING:tensorflow:From C:\Users\chq-anyac\AppData\Roaming\Python\Python37\site-packages\tensorflow_data_validation\utils\stats_util.py:247: tf_record_iterator (from tensorflow.python.lib.io.tf_record) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use eager execution and: 
+`tf.data.TFRecordDataset(path)`
+datasets {
+  num_examples: 1082924
+  features {
+    type: STRING
+    string_stats {
+      common_stats {
+        num_non_missing: 1082924
+        min_num_values: 1
+        max_num_values: 1
+        avg_num_values: 1.0
+        num_values_histogram {
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          buckets {
+            low_value: 1.0
+            high_value: 1.0
+            sample_count: 108292.4
+          }
+          type: QUANTILES
+        }
+        tot_num_values: 1082924
+      }
+      unique: 1071349
+      top_values {
+        value: "Well said."
+        frequency: 111.0
+      }
+      top_values {
+        value: "No."
+        frequency: 94.0
+      }
+      top_values {
+        value: "Yes."
+        frequency: 83.0
+      }
+      top_values {
+        value: "Thank you."
+        frequency: 74.0
+      }
+      top_values {
+        value: "Exactly."
+        frequency: 70.0
+      }
+      top_values {
+        value: "Why?"
+        frequency: 68.0
+      }
+      top_values {
+        value: "LOL"
+        frequency: 61.0
+      }
+      top_values {
+        value: "Agreed."
+        frequency: 60.0
+      }
+      top_values {
+        value: "S\341\264\233\341\264\200\312\200\341\264\233 \341\264\241\341\264\217\312\200\341\264\213\311\252\311\264\311\242 \322\223\312\200\341\264\217\341\264\215 \312\234\341\264\217\341\264\215\341\264\207! G\312\200\341\264\207\341\264\200\341\264\233 \341\264\212\341\264\217\312\231 \322\223\341\264\217\312\200 s\341\264\233\341\264\234\341\264\205\341\264\207\311\264\341\264\233s, s\341\264\233\341\264\200\312\217-\341\264\200\341\264\233-\312\234\341\264\217\341\264\215\341\264\207 \341\264\215\341\264\217\341\264\215s \341\264\217\312\200 \341\264\200\311\264\312\217\341\264\217\311\264\341\264\207 \311\264\341\264\207\341\264\207\341\264\205\311\252\311\264\311\242 \341\264\200\311\264 \341\264\207x\341\264\233\312\200\341\264\200 \311\252\311\264\341\264\204\341\264\217\341\264\215\341\264\207... Y\341\264\217\341\264\234 \341\264\217\311\264\312\237\312\217 \311\264\341\264\207\341\264\207\341\264\205 \341\264\200 \341\264\204\341\264\217\341\264\215\341\264\230\341\264\234\341\264\233\341\264\207\312\200 \341\264\200\311\264\341\264\205 \341\264\200 \312\200\341\264\207\312\237\311\252\341\264\200\312\231\312\237\341\264\207 \311\252\311\264\341\264\233\341\264\207\312\200\311\264\341\264\207\341\264\233 \341\264\204\341\264\217\311\264\311\264\341\264\207\341\264\204\341\264\233\311\252\341\264\217\311\264... M\341\264\200\341\264\213\341\264\207 $90 \312\234\341\264\217\341\264\234\312\200\312\237\312\217 \341\264\200\311\264\341\264\205 \341\264\234\341\264\230 \341\264\233\341\264\217 $12000 \341\264\200 \341\264\215\341\264\217\311\264\341\264\233\312\234 \312\231\312\217 \322\223\341\264\217\312\237\312\237\341\264\217\341\264\241\311\252\311\264\311\242 \312\237\311\252\311\264\341\264\213 \341\264\200\341\264\233 \341\264\233\312\234\341\264\207 \312\231\341\264\217\341\264\233\341\264\233\341\264\217\341\264\215 \341\264\200\311\264\341\264\205 s\311\252\311\242\311\264\311\252\311\264\311\242 \341\264\234\341\264\230... Y\341\264\217\341\264\234 \341\264\204\341\264\200\311\264 \312\234\341\264\200\341\264\240\341\264\207 \312\217\341\264\217\341\264\234\312\200 \322\223\311\252\312\200s\341\264\233 \341\264\204\312\234\341\264\207\341\264\204\341\264\213 \312\231\312\217 \341\264\233\312\234\341\264\207 \341\264\207\311\264\341\264\205 \341\264\217\322\223 \341\264\233\312\234\311\252s \341\264\241\341\264\207\341\264\207\341\264\213... \n\n+++++++++http://www.cashapp24.com/"
+        frequency: 58.0
+      }
+      top_values {
+        value: "Amen."
+        frequency: 58.0
+      }
+      top_values {
+        value: "What?"
+        frequency: 55.0
+      }
+      top_values {
+        value: "Exactly!"
+        frequency: 55.0
+      }
+      top_values {
+        value: "Well said!"
+        frequency: 52.0
+      }
+      top_values {
+        value: "Start working at home with Google! It\'s by-far the best job I\'ve had. Last Wednesday I got a brand new BMW since getting a check for $6474 this - 4 weeks past. I began this 8-months ago and immediately was bringing home at least $77 per hour. I work through this link, go to tech tab for work detail.\n+_+_+_+_+_+_+_+_+ http://www.22moneybay.com"
+        frequency: 48.0
+      }
+      top_values {
+        value: "Nope."
+        frequency: 48.0
+      }
+      top_values {
+        value: "test"
+        frequency: 47.0
+      }
+      top_values {
+        value: "Good."
+        frequency: 47.0
+      }
+      top_values {
+        value: "scary area"
+        frequency: 45.0
+      }
+      top_values {
+        value: "Thank you!"
+        frequency: 41.0
+      }
+      top_values {
+        value: "Amen!"
+        frequency: 40.0
+      }
+      avg_length: 297.826904296875
+      rank_histogram {
+        buckets {
+          label: "Well said."
+          sample_count: 111.0
+        }
+        buckets {
+          low_rank: 1
+          high_rank: 1
+          label: "No."
+          sample_count: 94.0
+        }
+        buckets {
+          low_rank: 2
+          high_rank: 2
+          label: "Yes."
+          sample_count: 83.0
+        }
+        buckets {
+          low_rank: 3
+          high_rank: 3
+          label: "Thank you."
+          sample_count: 74.0
+        }
+        buckets {
+          low_rank: 4
+          high_rank: 4
+          label: "Exactly."
+          sample_count: 70.0
+        }
+        buckets {
+          low_rank: 5
+          high_rank: 5
+          label: "Why?"
+          sample_count: 68.0
+        }
+        buckets {
+          low_rank: 6
+          high_rank: 6
+          label: "LOL"
+          sample_count: 61.0
+        }
+        buckets {
+          low_rank: 7
+          high_rank: 7
+          label: "Agreed."
+          sample_count: 60.0
+        }
+        buckets {
+          low_rank: 8
+          high_rank: 8
+          label: "S\341\264\233\341\264\200\312\200\341\264\233 \341\264\241\341\264\217\312\200\341\264\213\311\252\311\264
